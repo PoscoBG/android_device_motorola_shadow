@@ -17,10 +17,10 @@
 #
 # This is the product configuration for a generic Motorola Droid X (shadow)
 #
-$(call inherit-product, device/moto/shadow-common/shadow.mk)
+$(call inherit-product, device/motorola/shadow-common/shadow.mk)
 
-device_path = device/moto/shadow
-DEVICE_PACKAGE_OVERLAYS += device/moto/shadow/overlay
+device_path = device/motorola/shadow
+DEVICE_PACKAGE_OVERLAYS += device/motorola/shadow/overlay
 
 PRODUCT_PACKAGES += Torch
 
