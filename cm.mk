@@ -17,7 +17,7 @@
 # Inherit some common CM stuff
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 $(call inherit-product, vendor/cm/config/cdma.mk)
-$(call inherit-product, device/moto/shadow/full_shadow.mk)
+$(call inherit-product, device/motorola/shadow/full_shadow.mk)
 
 PRODUCT_NAME := cm_shadow
 PRODUCT_BRAND := Verizon
