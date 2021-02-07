@@ -22,7 +22,7 @@
 #
 
 # Inherit from shadow device
-$(call inherit-product, device/moto/shadow/shadow.mk)
+$(call inherit-product, device/motorola/shadow/shadow.mk)
 
 PRODUCT_NAME := full_shadow
 PRODUCT_DEVICE := shadow
